@@ -1,6 +1,5 @@
-use lib::{network::Network, activations::SIGMOID};
-
-pub mod lib;
+pub mod neural_network;
+use neural_network::{network::Network, activations::SIGMOID};
 
 // XOR prediction
 fn main() {
